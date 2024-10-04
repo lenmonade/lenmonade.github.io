@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Summary</title>
+  <link rel="icon" href="../ASSETS/logo renfit text.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <a class="back" href="RentNow.html">
+    <i class="material-icons">arrow_back_ios</i>
+    <p class="back">back</p>
+  </a>
+  
+  <div class="penghubung">
+    <a href="formrent.html">
+      <div id="circle1"></div>
+    </a>
+    
+    <div class="line"></div>
+
+    <a href="Delivery.html">
+      <div id="circle1"></div>
+    </a>
+    
+    <div class="line"></div>
+
+    <a href="OrderSummary.html">
+      <i class="material-icons">circle</i>
+    </a>
+    
+    <div class="line"></div>
+
+    <a href="PaymentDetail.html">
+      <div id="circle1"></div>
+    </a>
+    
+    
+  </div>
+    
+
+  <div class="kumpulan-judul">
+    <p class="size2">Size</p>
+    <p class="delivery2">Delivery</p>
+    <p class="summary2">Order Summary</p>
+    <p class="payment2">Payment Detail</p>
+  </div>
+  <p class="ordersum">Order Summary</p>
+  <p class="Address11">Address</p>
+  <div class="rcc">
+      <p>Keisha | 0812345678898</p>
+      <p>Alam Sutera, Jalur Sutera Road No.Kav.19B, East Panunggangan, Pinang District, Tangerang City, Banten 15143</p>
+  </div>
+  <p class="rp">Rent Period</p>
+  <div class="buttonclick" >
+    <label><input type="radio"> 1 day</label>
+    <label><input type="radio"> 2 days</label>
+    <label><input type="radio"> 3 days</label>
+    <label><input type="radio"> Custom</label>
+  </div>
+
+  <p class="produk">Product</p>
+  <div class="detailpesanan">
+    <img src="Asset/Detail1.png" alt="">
+    <div class="caption">
+      <p class="suitdrs">Suit Dress</p>
+      <p>Black</p>
+      <p>Custom Size</p>
+    </div>
+  </div>
+
+  <p class="pay">Payment Method</p>
+<div class="buttonclick2">
+  <label><input type="radio" id="bankrad" name="payment"> Bank Transfer</label>
+  <label><input type="radio" id="codrad" name="payment"> COD</label>
+  <label><input type="radio" id="scann" name="payment"> Scan Barcode</label>
+</div>
+
+<!-- Dropdown Bank, disembunyikan sampai "Bank Transfer" dipilih -->
+<div id="bank-opt" style="display: none;">
+  <label for="options">Choose Bank</label>
+  <select id="options">
+    <option value="option1">BCA</option>
+    <option value="option2">BNI</option>
+    <option value="option3">BRI</option>
+    <option value="option4">CIMB Niaga</option>
+  </select>
+</div>
+  
+
+  <textarea name="Voucher" id="vouche" cols="30" placeholder="Voucher"></textarea>
+
+  <div class="Product-subtotal">
+    <p>Product Subtotal</p>
+    <p>Rp 450.000</p>
+  </div>
+
+  <div class="Voucheee">
+    <p>Voucher Discount</p>
+    <p>Rp 20.000</p>
+  </div>
+
+  <div class="Voucheee">
+    <p>Shipping</p>
+    <p>Rp 0</p>
+  </div>
+
+  <div class="Voucheee">
+    <p>Total</p>
+    <p class="harga">Rp 380.000</p>
+  </div>
+
+
+  <a class="next2" href="PaymentDetail.html">
+    Next
+  </a>
+</body>
+</html>

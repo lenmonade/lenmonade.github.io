@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="renfit-icon" href="../ASSETS/logo renfit.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../css/Community2.css"> 
+
+</head>
+<body>
+
+    <header>
+        <a href="#"class="logo"><img src="../ASSETS/logo renfit.png" alt="logo" width="70" height="70"></a>
+        <ul class="navmenu">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="MixFemale.html">MixMatch</a></li>
+          <li><a class="nav-link" href="Community1.html">Community</a></li>
+        </ul> 
+       <div class="nav-icon">
+        <a class="search" href="#"><i class='bx bx-search'></i></a>
+        <a class="user" href="../html/rent.html"><i class='bx bxs-user' ></i></a>
+        <div class="cart">
+          <a href="../html/Cart.html" class="cartlink">
+            <i class='bx bxs-cart' ></i>
+            <p>cart-3</p>
+          </a>
+          <div class="rectangle"></div>
+        </div>
+       </div>
+      </header>
+
+    <div class="container">
+        <h1>Post your outfit for polling..</h1>
+
+        <!-- Image Upload Section -->
+        <div class="image-upload-section">
+            <div class="upload-box" id="upload1" onclick="uploadImage(1)">+</div>
+            <div class="upload-box" id="upload2" onclick="uploadImage(2)">+</div>
+            <div class="upload-box" id="upload3" onclick="uploadImage(3)">+</div>
+        </div>
+
+        <!-- Poll Options -->
+        <div class="poll-options">
+            <input type="text" value="Yes" class="poll-input">
+            <input type="text" value="No" class="poll-input">
+        </div>
+
+        <!-- Caption Box -->
+        <textarea class="caption-box" placeholder="Write your caption..."></textarea>
+
+        <!-- Post Button -->
+        <button class="post-button" onclick="submitPost()"><a class="post-button" href="Community1.html">Post</a></button>
+    </div>
+    
+    
+<footer>
+    <div class="footer_info">
+        <div class="footer_width about">
+            <h2>About</h2>
+            <p>
+                At Renfit, we aim to offer you a wide range of stylish clothing for rent 
+                that doesn't have a high cost or environmental impact. Our goal is 
+                to make fashion accessible, sustainable, and fun for everyone. Rent today, and 
+                join the movement toward a more conscious, eco-friendly fashion future!
+            </p>
+            <div class="social-media">
+                <ul>
+                    <li><a href="#"><img src="../ASSETS/logo facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../ASSETS/logo instagram.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="../ASSETS/logo tiktok.png" alt="Tiktok"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_width link">
+            <h2>Quick Link</h2>
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a href="MixFemale.html">Mixmatch</a></li>
+                <li><a href="Community1.html">Community</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_width contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <a href="mailto:Renfit@gmail.com"><img src="../ASSETS/logo email.png" alt="Email"></a>
+                    <p>Renfit@gmail.com</p> </a>
+                </li>
+                <li>
+                    <a href="tel:+62125854030"><img src="../ASSETS/logo telp.png" alt="Number"></a>
+                    <p>+62 125854030</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="../js/Community2.js"></script>
+</body>
+</html>
